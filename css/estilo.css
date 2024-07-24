@@ -1,0 +1,263 @@
+#logo{
+    height: 35px;
+       
+}
+.navbar a{
+  font-family: "Croissant One", serif;
+  color: #042e5ff0; 
+ }
+
+ .navbar a:hover{
+  font-family: "Croissant One", serif;
+  color: rgba(150, 167, 183, 0.388);
+ }
+
+p{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+      
+}
+
+.carousel-item, img{
+    text-align: center;
+}
+h5 {
+  font-family: "Croissant One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+h2 , h3 {
+  font-family: "Croissant One", serif; 
+  font-style: normal;
+  font-size: 40px;
+}
+
+h6 {
+  font-family: "Croissant One", serif; 
+  font-style: normal;
+  font-size: 20px;
+}
+
+
+#intro{
+ background-color:  rgb(244,244,241);
+ 
+ 
+
+}
+.container-intro{
+  
+  background-color:  rgba(150, 167, 183, 0.388);
+ 
+ }
+
+ .container-extra{
+  
+  background-color:  rgba(150, 167, 183, 0.388);
+ 
+ }
+ .card-body{
+  
+  margin-left: 20px;
+ 
+ }
+
+
+ #vendidos .card img:hover{
+  animation-name: fadein;
+  animation-duration: 8s;
+}
+@keyframes fadein {
+  0% {
+      opacity:0;
+  }
+  50%{
+      opacity:10;
+  }
+  
+}
+
+ #galeria .card:hover{
+  animation-name:scale-down-center;
+  animation-duration: 1s;
+}
+   @keyframes scale-down-center{
+      0%{
+          transform:scale(1)}
+          100%{
+              transform:scale(.5)}
+          }
+
+          
+ .btn{
+  background-color:rgb(150,167,183);
+  border: none;
+  color: aliceblue;
+ 
+ }
+
+ .btn:hover{
+  background-color: #042e5ff0;
+ }
+
+ .footer-container {
+  background-color:rgb(131, 161, 190);
+
+ }
+ .footer a:hover {
+  color: #042e5ff0; 
+}
+
+ .modal-body{
+  background-color:rgba(131, 161, 190, 0.371);
+
+ }
+
+
+
+@media (max-width:1093px)  {
+ 
+#navbarNav a{
+  font-size: 14px;
+}
+
+ }
+
+ @media (max-width:1025px)  {
+ 
+  #navbarNav a{
+    font-size: 13px;
+  }
+  
+   }
+
+   #contact {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  
+  }
+
+
+@media  (max-width: 560px){
+ 
+  #logo{
+    height: 20px;
+       
+}
+  
+  
+  .custom-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px; 
+}
+
+h2 ,h5 {
+  font-size: 40px;
+ }
+ .container-extra p{
+ 
+  display: none ;
+
+ }
+ .texto-nosotros{
+
+  display: none ;
+
+ }
+
+
+ }
+
+  
+@media  (max-width: 358px) {
+ h2 ,h5 {
+ font-size: 30px;
+ text-align: center;
+}
+
+.container-extra h5 {
+  font-size: 20px;
+  text-align: center;
+  
+
+ }
+ .container-extra p{
+ 
+  display: none ;
+
+ }
+
+ .texto-nosotros{
+
+  display: none ;
+
+ }
+
+ .custom-container {
+  
+  max-width: 900px; 
+}
+
+.card-text{
+
+  display: none ;
+
+ }
+
+
+}
+
+
+@media  (max-width: 320px) {
+  h2 ,h5 {
+  font-size: 25px;
+ 
+
+ }
+ 
+ 
+ .container-extra h5 {
+   font-size: 18px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+ 
+  }
+  .container-extra p{
+  
+   display: none ;
+ 
+  }
+ 
+  .texto-nosotros{
+ 
+   display: none ;
+ 
+  }
+ 
+  .custom-container {
+   
+   max-width: 900px; 
+ }
+ 
+ .card-text{
+ 
+   display: none ;
+ 
+  }
+ 
+ 
+ }
+ 
+ 
+ 
+
+
+
+ 
+

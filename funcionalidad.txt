@@ -1,0 +1,3 @@
+COMPONENTES DE BOOSTRAP: carrusel, nav bar, modal,card  ,accordion, grilla y dropdown.
+BREAK POINTS UTILIZADOS: 320px,358px, 560px, 1025px, 1093px (y boostrap breakpoints).
+CONSIGNA ESCOGIDA: Display grid
